@@ -1,0 +1,30 @@
+Teste automatizado de comparação de celulares no TudoCelular
+Este teste automatizado utiliza o Cypress para comparar dois celulares diferentes na página https://www.tudocelular.com/compare/.
+
+Pré-requisitos
+Antes de executar este teste automatizado, você precisa ter o Node.js e o Cypress instalados em sua máquina.
+
+Instalação
+Clone este repositório em sua máquina local.
+
+Abra o diretório clonado em um terminal.
+
+Execute o seguinte comando para instalar as dependências do projeto:
+
+
+"npm install cypress --save-dev"
+
+Execução 
+Para abrir a interface do Cypress, execute o seguinte comando:
+
+
+npx cypress open
+
+Selecione o arquivo "CT01-comparando_smartphones.cy.js" na janela do Cypress.
+
+O teste automatizado será executado automaticamente.
+
+O resultado do teste será exibido na janela do Cypress.
+
+Personalização
+Você pode personalizar este teste automatizado alterando os nomes dos celulares que deseja comparar. Basta modificar as strings "iPhone 13 Pro Max" e "Samsung Galaxy S22 Ultra" no arquivo "CT01-comparando_smartphones.cy.js".
